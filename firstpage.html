@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+
+<html>
+
+    <head>
+
+        <meta charset = "utf-8">
+        <title>
+            Main
+        </title>
+        <style>
+             h2 {
+                text-align: center;
+             }
+            
+            .top_title{
+                text-align: center;
+            }
+
+            .card {
+                text-align: center;
+            }
+
+            .card_title {
+                font-size: 15px;
+            }
+
+            .card_button {
+                font-size: 13px;
+                width: 110px;
+                height: 23px;
+            }
+
+            .card_img {
+                width: 300px;
+                height: 300px;
+            }
+        </style>
+    </head>
+    <body> <!-- body 태그에 우리 화면 나타낼거임-->
+        <br>
+        <br>
+        <h2>오지현의 포트폴리오</h2> <!-- 화면 내용 -->
+    
+    <br>
+    <div class="top_title">
+        안녕하세요, 주니어 개발자를 꿈꾸는 오지현입니다.
+        <br>
+        제 프로젝트를 소개합니다.
+    </div>
+
+    <div style="display:grid; grid-template-columns: 1fr 1fr 1fr;">
+            <div class="card">
+                <img class="card_img" src="./img/card1.png">
+                <p class="card_title"> <strong>프로젝트 설명</strong> </p><!--화면 상에서 의미 있는 단락 태그 p-->
+                <input class="card_button" type="button" value="자세히 보러가기" onclick="alert(1);">
+            </div>
+            <div class="card">
+                <img class="card_img" src="./img/card2.png">
+                <p class="card_title"><strong> 구현 기능 설명</strong> </p><!--단락 태그 p-->
+                <input class="card_button" type="button" value="자세히 보러가기" onclick="alert(2);">
+            </div>
+            <div class="card">
+                <img class="card_img" src="./img/card3.png">
+                <p class="card_title"> <strong>구현 방법 설명</strong> </p><!--단락 태그 p-->
+                <input class="card_button" type="button" value="자세히 보러가기" onclick="alert(3);">
+            </div>
+        </div>
+    
+    
+    
+    </body>
+
+
+    
+    
+    
+</html>
